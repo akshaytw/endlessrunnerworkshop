@@ -1,0 +1,290 @@
+Unity Editor version:    2021.3.19f1 (c9714fde33b6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/akshay.arora/Workspace/Endless Runner Workshop
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49575
+Successfully changed project path to: /Users/akshay.arora/Workspace/Endless Runner Workshop
+/Users/akshay.arora/Workspace/Endless Runner Workshop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704697078976] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1438929639 [EditorId] 1438929639 [Version] 1048832 [Id] OSXEditor(0,Akshay-Aroras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704697078976] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1438929639 [EditorId] 1438929639 [Version] 1048832 [Id] OSXEditor(0,Akshay-Aroras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 101.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path /Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/akshay.arora/Workspace/Endless Runner Workshop/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56323
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001498 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 131 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 81.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (294ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/akshay.arora/Workspace/Endless Runner Workshop/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/akshay.arora/Workspace/Endless Runner Workshop/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/akshay.arora/Workspace/Unity Projects/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (Unknown). Loaded Objects now: 3537.
+Memory consumption went from 105.2 MB to 105.2 MB.
+Total: 4.591606 ms (FindLiveObjects: 0.316065 ms CreateObjectMapping: 0.223611 ms MarkObjects: 3.793476 ms  DeleteObjects: 0.257290 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 502.040099 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png
+  artifactKey: Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png using Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '213aec9cb48c94f8df631f92b98b9f9e') in 0.943277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png
+  artifactKey: Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png using Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '21d18e687fa65a08fcf5d470b5d26aaf') in 0.041182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png
+  artifactKey: Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png using Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4a4026c28a6ad3e5f878c35e43f8c915') in 0.027100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Info.png
+  artifactKey: Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Info.png using Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '72c3a9d87cba4684b05f14fca4281f2d') in 0.022805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png
+  artifactKey: Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png using Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd288cdfd873dff08d9a8232a9ef7d9ea') in 0.019050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png
+  artifactKey: Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png using Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0b854bbd189417f442857d6b229df327') in 0.018250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png
+  artifactKey: Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png using Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4ce33d24f7e593e32178c5ba1265bb97') in 0.023303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png
+  artifactKey: Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png using Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'cd46780fd8e193b8edc9ea797cac930b') in 0.021281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png
+  artifactKey: Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png using Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd12b8646b3e5523ba5735ce3cc1a26c6') in 0.022113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png
+  artifactKey: Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png using Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b0fbfc737401cc53415e465c83b7f099') in 0.023925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png
+  artifactKey: Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png using Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '367d81e6bf40d7a24b7114fdc46b0f7f') in 0.020710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png
+  artifactKey: Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png using Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '358bbce91ca76c32417b8e09750d3982') in 0.023422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Trophy.png
+  artifactKey: Guid(6da6a02d4b7c14e9b97f5be021635cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Trophy.png using Guid(6da6a02d4b7c14e9b97f5be021635cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3d7863d048dba4b496916ed6bf88d7c4') in 0.022541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png
+  artifactKey: Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png using Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8217d41d18dbe3832f22be2942236806') in 0.020978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png
+  artifactKey: Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png using Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9d8768ea0ac355d21d075b1078d939cd') in 0.021094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/UpArrow.png
+  artifactKey: Guid(9d38a27b414cd4aa8a1b03f38b9ddcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/UpArrow.png using Guid(9d38a27b414cd4aa8a1b03f38b9ddcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7be3f70dd5b15a3ccea4c3d50135c66b') in 0.022790 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
